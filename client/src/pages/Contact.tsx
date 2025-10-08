@@ -1,8 +1,16 @@
 import ContactMap from "@/components/ContactMap";
+import SEOHead from "@/components/SEOHead";
 
 export default function Contact() {
   return (
     <div className="min-h-screen">
+      <SEOHead
+        title="Contact Buransh Tourist Lodge - Location & Booking Information"
+        description="Contact Buransh Tourist Lodge in Ransi Village for Madhyamaheshwar trek accommodation. Get directions, booking details, and contact information for your Himalayan journey."
+        keywords="Contact Buransh Lodge, Ransi Village location, Madhyamaheshwar trek contact, Uttarakhand lodge booking, Panch Kedar accommodation contact"
+        canonicalUrl="https://buranshtourist.shewshaw.tech/contact"
+        ogImage="https://buranshtourist.shewshaw.tech/attached_assets/generated_images/Himalayan_lodge_with_flowers_bfb3cb8b.png"
+      />
       <section className="py-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">

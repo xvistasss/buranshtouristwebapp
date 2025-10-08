@@ -2,6 +2,7 @@ import RoomCard from "@/components/RoomCard";
 import { Card, CardContent } from "@/components/ui/card";
 import { Wifi, Coffee, Bed, Utensils, Shirt, Shield } from "lucide-react";
 import roomImage from "@assets/generated_images/Cozy_lodge_room_interior_fa402585.png";
+import SEOHead from "@/components/SEOHead";
 
 export default function Rooms() {
   const rooms = [
@@ -42,6 +43,13 @@ export default function Rooms() {
 
   return (
     <div className="min-h-screen">
+      <SEOHead
+        title="Rooms & Accommodation - Buransh Tourist Lodge Ransi Village"
+        description="Comfortable rooms at Buransh Tourist Lodge in Ransi Village. Standard, Deluxe rooms and dormitories with mountain views. Perfect for Madhyamaheshwar trek preparation."
+        keywords="Buransh Lodge rooms, Ransi Village accommodation, Madhyamaheshwar trek stay, mountain lodge rooms, Uttarakhand hotel rooms, Panch Kedar accommodation"
+        canonicalUrl="https://buranshtourist.shewshaw.tech/rooms"
+        ogImage="https://buranshtourist.shewshaw.tech/attached_assets/generated_images/Cozy_lodge_room_interior_fa402585.png"
+      />
       <section className="py-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
@@ -53,7 +61,9 @@ export default function Rooms() {
             </p>
             <p className="mt-4 text-muted-foreground max-w-3xl mx-auto" data-testid="text-rooms-intro">
               Experience comfortable mountain hospitality in our cozy rooms designed for trekkers and pilgrims. 
-              Each room offers stunning Himalayan views and essential amenities for a restful stay.
+              Each room offers stunning Himalayan views and essential amenities for a restful stay before or after 
+              your Madhyamaheshwar trek. Our accommodation ranges from budget-friendly dormitories to deluxe rooms 
+              with mountain views, all equipped with basic amenities perfect for high-altitude stays.
             </p>
           </div>
 

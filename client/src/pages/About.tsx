@@ -2,6 +2,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Mountain, Heart, Users, Leaf } from "lucide-react";
 import templeImage from "@assets/generated_images/Himalayan_temple_with_mountains_37afb6a4.png";
 import flowersImage from "@assets/generated_images/Buransh_flowers_close-up_fa5ea8dd.png";
+import SEOHead from "@/components/SEOHead";
 
 export default function About() {
   const features = [
@@ -29,6 +30,13 @@ export default function About() {
 
   return (
     <div className="min-h-screen">
+      <SEOHead
+        title="About Buransh Tourist Lodge - Ransi Village Mountain Hospitality"
+        description="Learn about Buransh Tourist Lodge in Ransi Village, serving pilgrims and trekkers for Madhyamaheshwar trek. Authentic Garhwali hospitality at 2,200m altitude."
+        keywords="About Buransh Lodge, Ransi Village history, Madhyamaheshwar trek base camp, Garhwali hospitality, Panch Kedar pilgrimage, Uttarakhand mountain lodge"
+        canonicalUrl="https://buranshtourist.shewshaw.tech/about"
+        ogImage="https://buranshtourist.shewshaw.tech/attached_assets/generated_images/Himalayan_temple_with_mountains_37afb6a4.png"
+      />
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-card/30">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
@@ -44,9 +52,10 @@ export default function About() {
             <div>
               <img
                 src={templeImage}
-                alt="Madhyamaheshwar Temple"
+                alt="Ancient Madhyamaheshwar Temple with Himalayan mountain backdrop - sacred Panch Kedar pilgrimage site"
                 className="rounded-lg shadow-lg w-full"
                 data-testid="img-temple"
+                loading="lazy"
               />
             </div>
             <div className="space-y-4 text-muted-foreground">
@@ -113,9 +122,10 @@ export default function About() {
             <div className="order-1 lg:order-2">
               <img
                 src={flowersImage}
-                alt="Buransh Flowers"
+                alt="Vibrant red Buransh (Rhododendron) flowers blooming in Himalayan mountains near Ransi Village"
                 className="rounded-lg shadow-lg w-full"
                 data-testid="img-flowers"
+                loading="lazy"
               />
             </div>
           </div>

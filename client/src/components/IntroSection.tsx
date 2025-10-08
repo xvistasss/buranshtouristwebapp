@@ -34,9 +34,10 @@ export default function IntroSection() {
           <div className="relative">
             <img
               src={lodgeImage}
-              alt="Buransh Tourist Lodge"
+              alt="Buransh Tourist Lodge with Himalayan mountain backdrop and red rhododendron flowers - perfect base camp for Madhyamaheshwar trek"
               className="rounded-lg shadow-lg w-full"
               data-testid="img-lodge"
+              loading="lazy"
             />
             <div className="absolute -bottom-6 -left-6 bg-primary text-primary-foreground p-4 rounded-lg shadow-lg">
               <p className="text-sm font-semibold" data-testid="text-altitude">Altitude: 2,200m</p>

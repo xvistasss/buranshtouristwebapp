@@ -2,6 +2,7 @@ import TrekRouteInfo from "@/components/TrekRouteInfo";
 import { Card, CardContent } from "@/components/ui/card";
 import { AlertCircle, Calendar, Backpack, Heart, Mountain, Sun, Cloud } from "lucide-react";
 import trekImage from "@assets/generated_images/Forest_trekking_trail_scene_c41a789b.png";
+import SEOHead from "@/components/SEOHead";
 
 export default function TrekInfo() {
   const essentials = [
@@ -35,6 +36,13 @@ export default function TrekInfo() {
 
   return (
     <div className="min-h-screen">
+      <SEOHead
+        title="Madhyamaheshwar Trek Guide - Complete Information & Route Details"
+        description="Complete guide to Madhyamaheshwar trek from Ransi Village. 16km sacred pilgrimage to Panch Kedar temple at 3,497m altitude. Trek route, essentials, and tips."
+        keywords="Madhyamaheshwar trek, Panch Kedar pilgrimage, Ransi to Madhyamaheshwar, trek route guide, sacred temple trek, Uttarakhand trekking, Lord Shiva temple trek"
+        canonicalUrl="https://buranshtourist.shewshaw.tech/trek-info"
+        ogImage="https://buranshtourist.shewshaw.tech/attached_assets/generated_images/Forest_trekking_trail_scene_c41a789b.png"
+      />
       <section className="py-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
@@ -50,9 +58,10 @@ export default function TrekInfo() {
             <div>
               <img
                 src={trekImage}
-                alt="Trek Trail"
+                alt="Forest trekking trail leading to Madhyamaheshwar temple through dense Himalayan coniferous forests"
                 className="rounded-lg shadow-lg w-full"
                 data-testid="img-trek-trail"
+                loading="lazy"
               />
             </div>
             <div className="space-y-4">

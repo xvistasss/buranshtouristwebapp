@@ -1,10 +1,18 @@
 import BookingForm from "@/components/BookingForm";
 import { Card, CardContent } from "@/components/ui/card";
 import { Phone, Mail, MessageCircle } from "lucide-react";
+import SEOHead from "@/components/SEOHead";
 
 export default function Booking() {
   return (
     <div className="min-h-screen">
+      <SEOHead
+        title="Book Your Stay - Buransh Tourist Lodge Ransi Village"
+        description="Book your accommodation at Buransh Tourist Lodge for Madhyamaheshwar trek. Online booking form, contact details, and reservation policies for your Himalayan journey."
+        keywords="Book Buransh Lodge, Madhyamaheshwar trek booking, Ransi Village accommodation, Uttarakhand lodge reservation, Panch Kedar trek stay booking"
+        canonicalUrl="https://buranshtourist.shewshaw.tech/booking"
+        ogImage="https://buranshtourist.shewshaw.tech/attached_assets/generated_images/Cozy_lodge_room_interior_fa402585.png"
+      />
       <section className="py-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
@@ -29,7 +37,7 @@ export default function Booking() {
                   </div>
                 </div>
                 <h3 className="font-semibold mb-2">Call Us</h3>
-                <p className="text-sm text-muted-foreground mb-1">+91 XXXXX XXXXX</p>
+                <p className="text-sm text-muted-foreground mb-1">+91 9759040455</p>
                 <p className="text-xs text-muted-foreground">Available 8 AM - 8 PM</p>
               </CardContent>
             </Card>
@@ -55,7 +63,7 @@ export default function Booking() {
                   </div>
                 </div>
                 <h3 className="font-semibold mb-2">WhatsApp</h3>
-                <p className="text-sm text-muted-foreground mb-1">+91 XXXXX XXXXX</p>
+                <p className="text-sm text-muted-foreground mb-1">+91 9759040455</p>
                 <p className="text-xs text-muted-foreground">Quick response guaranteed</p>
               </CardContent>
             </Card>

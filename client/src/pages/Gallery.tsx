@@ -5,6 +5,7 @@ import templeImage from "@assets/generated_images/Himalayan_temple_with_mountain
 import roomImage from "@assets/generated_images/Cozy_lodge_room_interior_fa402585.png";
 import trekImage from "@assets/generated_images/Forest_trekking_trail_scene_c41a789b.png";
 import flowersImage from "@assets/generated_images/Buransh_flowers_close-up_fa5ea8dd.png";
+import SEOHead from "@/components/SEOHead";
 
 export default function Gallery() {
   const images = [
@@ -66,6 +67,13 @@ export default function Gallery() {
 
   return (
     <div className="min-h-screen">
+      <SEOHead
+        title="Photo Gallery - Buransh Tourist Lodge & Madhyamaheshwar Trek"
+        description="Explore stunning photos of Buransh Tourist Lodge, Madhyamaheshwar trek route, Himalayan landscapes, and sacred temple views. Visual journey through Ransi Village."
+        keywords="Buransh Lodge photos, Madhyamaheshwar trek images, Himalayan gallery, Ransi Village pictures, Panch Kedar temple photos, Uttarakhand trekking images"
+        canonicalUrl="https://buranshtourist.shewshaw.tech/gallery"
+        ogImage="https://buranshtourist.shewshaw.tech/attached_assets/generated_images/Himalayan_mountain_peaks_panorama_295170a4.png"
+      />
       <section className="py-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">

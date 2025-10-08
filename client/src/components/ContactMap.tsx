@@ -36,8 +36,8 @@ export default function ContactMap() {
               <div>
                 <p className="font-semibold mb-1" data-testid="text-phone-title">Phone</p>
                 <p className="text-sm text-muted-foreground" data-testid="text-phone-number">
-                  +91 XXXXX XXXXX<br />
-                  +91 XXXXX XXXXX (Alternative)
+                +91 9759040455<br />
+                  +91 7980473072 (Alternative)
                 </p>
               </div>
             </div>

@@ -8,6 +8,8 @@ export default function HeroSection() {
       <div
         className="absolute inset-0 bg-cover bg-center"
         style={{ backgroundImage: `url(${heroImage})` }}
+        role="img"
+        aria-label="Himalayan mountain peaks panorama with Buransh Tourist Lodge in the foreground"
       />
       <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-black/60" />
       
